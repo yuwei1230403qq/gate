@@ -460,8 +460,8 @@ EDGE_HOSTS = [
     h.strip()
     for h in os.environ.get(
         "EDGE_HOSTS",
-        "cdn.667891.xyz:2087,cf.3666888.xyz:2087,saas.072159.xyz:2083,www.gov.il:2083,wppaunz.com:2096,www.sage.com:2087,markmonitor.com:8443,cf.468123.xyz:2053,"
-        "constitution.congress.gov:2053,cf.nyanya.moe:8443,baota.us.kg:8443,www.zendesk.com:443,jobsdb.com:8443,store.ubi.com:2053,cf-cname.xingpingcn.top:2083,cdn.ctn32.us.kg:443,saas.sin.fan:2083,login.rockwellautomation.com:2087",
+        "saas.072159.xyz:443,hzytjy.cn:443,ali.nonull.pp.ua:443,auto.dolby.dpdns.org:443,"
+        "cdn.cnno.de:443,saas.sin.fan:443,cf.777791.xyz:443",
     ).split(",")
     if h.strip()
 ]
